@@ -1,0 +1,14 @@
+{
+  "name": "deepseek-harness-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Codex skill for controlling local DeepSeek Harness Web sessions without MCP registration",
+  "license": "MIT",
+  "engines": { "node": ">=22.19.0" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "help": "node scripts/dsh.mjs --help",
+    "doctor": "node scripts/dsh.mjs dsh_status"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepSeek Harness 本机控制"
+  short_description: "通过本地脚本向 DeepSeek Harness 提交任务、继续对话并读取执行结果"
+  default_prompt: "使用 $deepseek-harness-control 检查本机 Harness 的连接状态，并根据我的要求操作指定会话。"
